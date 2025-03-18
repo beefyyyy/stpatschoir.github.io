@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("./Assets/Fonts/helvetica/Helvetica.ttf");
+}
+
+@font-face {
+    font-family: "helvetica-bold";
+    src: url("./Assets/Fonts/helvetica/Helvetica\ Roman.ttf");
+}
+
+.button-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.button-container, button, a{
+    font-family: "helvetica", sans-serif;
+    padding: 5px 10px;
+    background: rgb(0 48 135);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+body{
+    background-color: white;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.title-container{
+    display: grid;
+    grid-template-columns: auto 50px;
+    font-family: "helvetica-bold", sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(0 48 135);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
+
+.title-container img{
+    float: right;
+    width: 60px;
+    height: auto;
+}
