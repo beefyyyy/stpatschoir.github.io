@@ -9,15 +9,16 @@
 }
 
 .border{
-    width: 700px;
+    width: 800px;
     margin: auto;
     border: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .button-container{
     display: flex;
     align-items: center;
-    width: 670px;
+    width: 770px;
     padding: 0px 5px;
     margin: auto;
     justify-content: space-between;
@@ -67,4 +68,10 @@ body{
     right: 0px;
     width: auto;
     height: 81px;
+}
+
+.paragraph1, h3, p{
+    font-family: "helvetica", sans-serif;
+    background-color: rgb(232, 232, 232);
+    padding: 0px 10px;
 }
