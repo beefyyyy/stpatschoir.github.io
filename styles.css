@@ -76,11 +76,10 @@ body{
     font-family: "helvetica", sans-serif;
     background-color: rgb(232, 232, 232);
     margin-right: 30%;
-    margin-left: 20px;
 }
 
 .paragraph1 h3{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .paragraph1 p{
