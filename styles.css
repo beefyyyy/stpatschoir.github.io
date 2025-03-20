@@ -75,20 +75,22 @@ body{
     font-size: 70px;
     color: white;
     margin: 0px;
+    margin-bottom: 9px;
 }
 
 .title-container img{
     position: absolute;
     right: 0px;
     width: auto;
-    height: 81px;
+    height: 90px; 
 }
 
 .paragraph1{
     font-family: "helvetica", sans-serif;
     background-color: rgb(232, 232, 232);
+    padding-right: 10px;
     margin-right: 30%;
-    margin-left: 20px;
+    margin-left: 15px;
     border-radius: 5px;
 }
 
