@@ -13,11 +13,28 @@
     src: url("./Assets/Fonts/helvetica/Helvetica-Bold.ttf");
 }
 
+body{
+    background-color: white;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+footer{
+    font-family: sans-serif;
+}
+
 .border{
     width: 1000px;
     margin: auto;
     border: 1px solid black;
     border-bottom: 1px solid white;
+    background-color: white;
 }
 
 .button-container{
@@ -28,12 +45,6 @@
     justify-content: space-between;
 }
 
-a{
-    color: white;
-    outline: none;
-    text-decoration: none;
-}
-
 .button{
     background-color: rgb(0 48 135);
     font-family: "helvetica-bold", sans-serif;
@@ -42,6 +53,7 @@ a{
     padding-bottom: 5px;
     padding-top: 5px;
     border: 0px;
+    width: 150px;
     cursor: pointer;
     border-radius: 5px;
     transition-duration: 0.4s;
@@ -49,13 +61,6 @@ a{
 
 .button:hover{
     background-color: rgb(80,116,188);
-}
-
-
-body{
-    background-color: white;
-    margin-left:60px;
-    margin-right:60px;
 }
 
 .title-container{
@@ -88,16 +93,16 @@ body{
 .paragraph1{
     font-family: "helvetica", sans-serif;
     background-color: rgb(232, 232, 232);
-    padding-right: 10px;
+    padding: 0em 4px 0px 4px;
     margin-right: 30%;
-    margin-left: 15px;
+    margin-left: 25px;
     border-radius: 5px;
 }
 
 .paragraph1 h3{
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 .paragraph1 p{
-    margin-left: 10px;
+    margin-left: 8px;
 }
